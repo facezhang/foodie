@@ -1,0 +1,43 @@
+html>
+    <head>
+        <title>My Cool Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Data Science Skills</h1>
+        <h2 id="Face"> Programming Languages</h2>
+        <ol>
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>Scala</li>
+        </ol>
+        <p class="Charlie">I love learning data science.</p>
+        <a href= "https://datarockie.com/">DataRockie.com</a>
+    </body>
+    <form>
+        <div class="input-group">
+            <input
+                id="email"
+                type="email"
+                placeholder=""
+            />
+            <label for="email">Email</label>
+            <span class="input-error">
+                Not a valid email
+            </span>
+        </div>
+        <div class="input-group">
+            <input 
+                type="password"
+                id="password"
+                placeholder=""
+                pattern="[a-z0-9]{8,}"
+            />
+            <label for="password">Password</label>
+            <span class="input-error">
+                Digits or letters, min 8 characters
+            </span>
+        </div>
+    </form>
+</html>
